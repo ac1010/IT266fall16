@@ -325,8 +325,13 @@ entityDef projectile_rocket
 	"def_damage"				"damage_rocketDirect"
 	"def_splash_damage"			"damage_rocketSplash"
 																											
-	"speed"						"900"
-	"fuse"						"6"
+	/*
+	ac448
+	decreased speed and fuse
+	*/
+																										
+	"speed"						"9"
+	"fuse"						".01"
 	"push"						"48000"
 	
 							
@@ -418,8 +423,13 @@ entityDef damage_rocketSplash
 
 entityDef damage_rocketSplash_mp
 {
+	/*
+	ac448
+	increased radius and and knockback
+	*/
+
 	"inherit"					"damage_rocketSplash"
-	"knockback"					"100"
-	"damage"					"100"
-	"radius"					"120"
+	"knockback"					"1000"
+	"damage"					"0"
+	"radius"					"1000"
 }
