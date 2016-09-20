@@ -326,8 +326,8 @@ entityDef projectile_rocket
 	"def_splash_damage"			"damage_rocketSplash"
 																											
 	/*
-	ac448
-	decreased speed and fuse
+		ac448
+		decreased speed and fuse
 	*/
 																										
 	"speed"						"9"
@@ -424,8 +424,8 @@ entityDef damage_rocketSplash
 entityDef damage_rocketSplash_mp
 {
 	/*
-	ac448
-	increased radius and and knockback
+		ac448
+		increased radius and and knockback
 	*/
 
 	"inherit"					"damage_rocketSplash"
